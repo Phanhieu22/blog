@@ -1,0 +1,43 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  height: 220vh;
+}
+h1 {
+  font-size: 3rem;
+  text-transform: uppercase;
+}
+article {
+  display: flex;
+  margin-top: 30px;
+}
+article img {
+  width: 400px;
+  margin-right: 20px;
+}
+.abum {
+  width: 1200px;
+}
+.abum h1 {
+  padding: 40px;
+  text-align: center;
+}
+.listItem {
+  width: 1200px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  background-color: #ccc;
+  grid-gap: 20px;
+}
+.listItem img {
+  object-fit: contain;
+  width: 100%;
+  border-radius: 20px;
+}
